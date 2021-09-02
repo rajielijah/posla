@@ -11,7 +11,21 @@ class SelectCategory extends StatelessWidget {
             color: Colors.grey[100], 
             child: Column(
               children: [
-                
+                Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 50,
+              width: 460,
+              color: Colors.white,
+              child: Row(
+                children: [
+                  Icon(Icons.arrow_back_outlined, size: 30,),
+                  SizedBox(width: 17,),
+                  Text('Select Category', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),)
+                ],
+                  ),
+                ),
+              ),
                 
                 selectCategory(context, Text('Graphics Design', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined)),
                 selectCategory(context, Text('Programming & Tech', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined)),
