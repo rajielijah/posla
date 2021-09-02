@@ -108,7 +108,13 @@ Thanks!''',  style: TextStyle(fontWeight: FontWeight.bold, letterSpacing:0.42,  
                       onRatingUpdate: (rating) {
                         print(rating);
                       },
-                    )
+                    ),
+                    LinearProgressIndicator(
+                      // value: 1,
+            backgroundColor: Colors.blue,
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+
+          )
                   ],
                 ),
               ),
