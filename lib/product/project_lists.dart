@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:posla/widget/project_list_widget.dart';
 
@@ -18,7 +19,7 @@ class ProjectList extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     height: 50,
-                    width: 460,
+                    // width: 200,
                     color: Colors.white,
                     child: Row(
                       children: [
@@ -103,6 +104,90 @@ class ProjectList extends StatelessWidget {
                       SizedBox(height: 20,),
                       projectList(context, Text('I need a food menu design which should r ', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined), Text('We are a mini restaurant with varieties of may.'), Text("550"), Text('New', style: TextStyle(color: Colors.white),), Text('Featured', style: TextStyle(color: Colors.white),), Text('37 proposals'), Text('Graphics'), Text('Priniting')),
                       
+                    ],
+                  ),
+                ),
+               SizedBox(height: 20,),
+                Container(
+                  width: 320,
+                  height: 50,
+                  color: Colors.white,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Icon(Icons.arrow_back_ios),
+                      ),
+                      Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Text('1', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold), )
+                      ),
+                      Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Text('2', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      ),
+                       Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Text('3', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      ),
+Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Text('4', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      ),
+                      Text('....', style: TextStyle(fontWeight: FontWeight.bold),),
+                      Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Text('18', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                      ),
+ Container(
+                        width: 30,
+                        height: 30,
+                        padding: EdgeInsets.only(left:7),
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(1),
+                        ),
+                        child: Icon(Icons.arrow_forward_ios_outlined),
+                      ),
+
                     ],
                   ),
                 )
