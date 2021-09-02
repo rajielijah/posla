@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:posla/product/deal_details.dart';
+import 'package:posla/product/project_lists.dart';
 
 
 Widget categories(BuildContext context, AssetImage image, Text text) {
@@ -20,7 +21,7 @@ Widget selectCategory(BuildContext context, Text text, Icon icon){
     padding: const EdgeInsets.all(4.0),
     child: GestureDetector(
       onTap: (){
-         Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => DealDetails()));
+         Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => ProjectList()));
       },
       child: Container(
        height: 40,
