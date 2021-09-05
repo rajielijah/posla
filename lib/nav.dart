@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:posla/authentication/login.dart';
+import 'package:posla/home/home_deal.dart';
 
 
 class NavBar extends StatefulWidget {
@@ -12,7 +13,7 @@ class NavBar extends StatefulWidget {
 class _NavBarState extends State<NavBar> {
   int _selectedIndex = 0;
   static List<Widget> _widgetOptions = <Widget>[
-    Login(),
+    HomeDeal(),
     Login(),
     Login(),
     Login()

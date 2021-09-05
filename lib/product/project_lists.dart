@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:posla/widget/deals_list_widget.dart';
 import 'package:posla/widget/project_list_widget.dart';
 
 class ProjectList extends StatelessWidget {
@@ -94,6 +95,7 @@ class ProjectList extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
+                      
                       projectList(context, Text('I need a food menu design which should r ', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined), Text('We are a mini restaurant with varieties of may.'), Text("550"), Text('New', style: TextStyle(color: Colors.white),), Text('Featured', style: TextStyle(color: Colors.white),), Text('37 proposals'), Text('Graphics'), Text('Priniting')),
                       SizedBox(height: 20,),
                       projectList(context, Text('I need a food menu design which should r ', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined), Text('We are a mini restaurant with varieties of may.'), Text("550"), Text('New', style: TextStyle(color: Colors.white),), Text('Featured', style: TextStyle(color: Colors.white),), Text('37 proposals'), Text('Graphics'), Text('Priniting')),
@@ -103,6 +105,7 @@ class ProjectList extends StatelessWidget {
                       projectList(context, Text('I need a food menu design which should r ', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined), Text('We are a mini restaurant with varieties of may.'), Text("550"), Text('New', style: TextStyle(color: Colors.white),), Text('Featured', style: TextStyle(color: Colors.white),), Text('37 proposals'), Text('Graphics'), Text('Priniting')),
                       SizedBox(height: 20,),
                       projectList(context, Text('I need a food menu design which should r ', style: TextStyle(fontWeight: FontWeight.bold),), Icon(Icons.arrow_forward_ios_outlined), Text('We are a mini restaurant with varieties of may.'), Text("550"), Text('New', style: TextStyle(color: Colors.white),), Text('Featured', style: TextStyle(color: Colors.white),), Text('37 proposals'), Text('Graphics'), Text('Priniting')),
+                      SizedBox(height: 20,),
                       
                     ],
                   ),
@@ -156,7 +159,7 @@ class ProjectList extends StatelessWidget {
                         ),
                         child: Text('3', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                       ),
-Container(
+                      Container(
                         width: 30,
                         height: 30,
                         padding: EdgeInsets.only(left:7),
@@ -177,7 +180,7 @@ Container(
                         ),
                         child: Text('18', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                       ),
- Container(
+                      Container(
                         width: 30,
                         height: 30,
                         padding: EdgeInsets.only(left:7),
