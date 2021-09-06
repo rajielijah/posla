@@ -4,14 +4,26 @@ import 'package:posla/product/project_lists.dart';
 
 
 Widget categories(BuildContext context, AssetImage image, Text text) {
-  return Container(
-    height: 40,
-    width: 90,
-    child: Row(
-      children: [
-        Image(image: image, height: 40,),
-        text
-      ],
+  return Padding(
+    padding: const EdgeInsets.all(8.0),
+    child: Container(
+      height: 80,
+      width: 230,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(12)
+      ),
+      child: Row(
+        // mainAxisAlignment:MainAxisAlignment.spaceEvenly,
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Image(image: image,  height: 80, fit: BoxFit.fitHeight,),
+          SizedBox(
+            width: MediaQuery.of(context).size.width/12,
+          ),
+          text
+        ],
+      ),
     ),
   );
 }
